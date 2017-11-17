@@ -40,8 +40,7 @@ function initialize() {
 	}
 
 // load google map
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATOEDO2Hhyb5TQiKQV4bXpS5ZB-R2ISWY&callback=initialize"
-  type="text/javascript"></script>
+
 	
 	function lightbox(insertContent, ajaxContentUrl){
 
