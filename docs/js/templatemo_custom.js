@@ -40,11 +40,8 @@ function initialize() {
 	}
 
 // load google map
-var script = document.createElement('script');
-    script.type = 'text/javascript';
-script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyATOEDO2Hhyb5TQiKQV4bXpS5ZB-R2ISWY&callback=initialize';
-    
-    document.body.appendChild(script);
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATOEDO2Hhyb5TQiKQV4bXpS5ZB-R2ISWY&callback=initialize"
+  type="text/javascript"></script>
 	
 	function lightbox(insertContent, ajaxContentUrl){
 
