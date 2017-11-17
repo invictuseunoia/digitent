@@ -42,8 +42,7 @@ function initialize() {
 // load google map
 var script = document.createElement('script');
     script.type = 'text/javascript';
-script.src = 'https://maps.googleapis.com/maps/api/js?AIzaSyDopKBNsojDJ5isugncf_5y6NB1YNANAP4.exp&sensor=false&' +
-        'callback=initialize';
+script.src = 'https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initialize';
     
     document.body.appendChild(script);
 	
