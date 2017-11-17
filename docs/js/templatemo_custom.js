@@ -43,7 +43,8 @@ function initialize() {
 var script = document.createElement('script');
     script.type = 'text/javascript';
 script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyATOEDO2Hhyb5TQiKQV4bXpS5ZB-R2ISWY&callback=initialize';
-    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATOEDO2Hhyb5TQiKQV4bXpS5ZB-R2ISWY&callback=initialize"
+  type="text/javascript"></script>
     document.body.appendChild(script);
 	
 	function lightbox(insertContent, ajaxContentUrl){
